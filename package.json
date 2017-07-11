@@ -1,0 +1,22 @@
+{
+  "name": "stylelint-config-primarysite",
+  "version": "0.1.0",
+  "description": "PrimarySite's approach to CSS.",
+  "repository": "https://github.com/PrimarySite/pslint.git",
+  "author": "Sammy Marsden <sammy@primarysite.net>",
+  "private": true,
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/PrimarySite/stylelint-config-primarysite/issues"
+  },
+  "homepage": "https://github.com/PrimarySite/stylelint-config-primarysite",
+  "keywords": [
+    "css",
+    "lint",
+    "style guide",
+    "stylelint",
+    "stylelintconfig"
+  ],
+  "dependencies": {
+  }
+}
