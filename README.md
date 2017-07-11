@@ -1,11 +1,11 @@
 # PrimarySite's approach to CSS
 
-### Getting started
+## Getting started
 
     $ yarn install stylelint-config-primarysite stylelint
 
-With your project's `.stylelint.js` file, extend
-'stylelint-config-primarysite', like so:
+With your project's `.stylelintrc` file, extend 'stylelint-config-primarysite',
+like so:
 
     {
        "extends": "stylelint-config-primarysite"
