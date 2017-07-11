@@ -2,9 +2,10 @@
 
 ### Getting started
 
-    $ yarn install stylelint-config-primarysite
+    $ yarn install stylelint-config-primarysite stylelint
 
-With your project's `.stylelintrc` file, extend 'primarysite', like so:
+With your project's `.stylelint.js` file, extend
+'stylelint-config-primarysite', like so:
 
     {
        "extends": "stylelint-config-primarysite"
