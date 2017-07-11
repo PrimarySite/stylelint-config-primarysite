@@ -7,5 +7,5 @@
 With your project's `.stylelintrc` file, extend 'primarysite', like so:
 
     {
-       extends: 'primarysite'
-    };
+       "extends": "stylelint-config-primarysite"
+    }

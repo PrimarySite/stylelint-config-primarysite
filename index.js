@@ -1,5 +1,6 @@
 module.exports = {
   extends: [
-    './rules/color.js'
-  ].map(require.resolve);
+    './rules/color.js',
+    './rules/font.js'
+  ].map(require.resolve)
 };
