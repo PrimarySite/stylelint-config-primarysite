@@ -17,6 +17,7 @@
     "stylelint",
     "stylelintconfig"
   ],
-  "dependencies": {
+  "peerDependencies": {
+    "stylelint": "^7.13.0"
   }
 }
