@@ -2,8 +2,8 @@ module.exports = {
   rules: {
     'selector-attribute-operator-blacklist': null,
     'selector-attribute-operator-whitelist': null,
-    'selector-class-pattern': ['\\.[a-z]+(-[a-z]+)*', { resolveNestedSelectors: true }],
-    'selector-id-pattern': '#[a-z]+(-[a-z]+)*',
+    'selector-class-pattern': ['^([a-z][a-z]*)(-[a-z]+)*$', { resolveNestedSelectors: true }],
+    'selector-id-pattern': '^([a-z][a-z]*)(-[a-z]+)*$',
     'selector-max-attribute': 1,
     'selector-max-class': 2,
     'selector-max-combinators': 1,
