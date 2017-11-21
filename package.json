@@ -18,6 +18,6 @@
     "stylelintconfig"
   ],
   "peerDependencies": {
-    "stylelint": "^7.13.0"
+    "stylelint": "^8.2.0"
   }
 }
