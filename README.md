@@ -14,5 +14,5 @@ like so:
 *Note*: This package expects that postcss-cssnext is being used. If it's not,
 the following rules should be used in your config to override this package:
 
-  'at-rule-blacklist': 'import',
-  'selector-pseudo-class-blacklist': null
+    'at-rule-blacklist': 'import',
+    'selector-pseudo-class-blacklist': null
