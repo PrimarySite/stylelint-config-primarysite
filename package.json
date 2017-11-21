@@ -20,5 +20,8 @@
   "peerDependencies": {
     "postcss-cssnext": "^3.0.0",
     "stylelint": "^8.2.0"
+  },
+  "dependencies": {
+    "stylelint-order": "^0.7.0"
   }
 }
