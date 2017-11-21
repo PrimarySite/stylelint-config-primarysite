@@ -18,6 +18,7 @@
     "stylelintconfig"
   ],
   "peerDependencies": {
+    "postcss-cssnext": "^3.0.0",
     "stylelint": "^8.2.0"
   }
 }

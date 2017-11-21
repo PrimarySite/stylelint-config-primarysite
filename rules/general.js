@@ -1,5 +1,6 @@
 module.exports = {
   rules: {
+    'max-nesting-depth': 0,
     'no-descending-specificity': true,
     'no-duplicate-selectors': true,
     'no-empty-source': true,

@@ -10,3 +10,6 @@ like so:
     {
        "extends": "stylelint-config-primarysite"
     }
+
+Note: This package expects that postcss-cssnext is being used. If it's not, the
+`selector-pseudo-class-blacklist` rule should be overridden with `null`.
