@@ -27,15 +27,14 @@ module.exports = {
     'selector-max-compound-selectors': 1,
     'selector-max-empty-lines': 0,
     'selector-max-id': 0,
-    'selector-max-specificity': '0, 2, 1',
+    'selector-max-specificity': '0,2,1',
     'selector-max-type': 0,
     'selector-max-universal': 0,
     'selector-nested-pattern': null,
     'selector-no-qualifying-type': true,
     'selector-no-vendor-prefix': true,
     'selector-pseudo-class-blacklist': [
-      'focus',
-      'hover',
+      ['focus', 'hover'],
       { message: 'Expected ":--focusHover" to be used' }
     ],
     'selector-pseudo-class-case': 'lower',
