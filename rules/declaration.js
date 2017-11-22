@@ -26,6 +26,7 @@ module.exports = {
     },
     'declaration-property-unit-whitelist': { 'line-height': [] },
     'declaration-property-value-blacklist': null,
-    'declaration-property-value-whitelist': null
+    'declaration-property-value-whitelist': null,
+    'keyframe-declaration-no-important': true
   }
 };
