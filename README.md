@@ -11,7 +11,7 @@ like so:
        "extends": "stylelint-config-primarysite"
     }
 
-*Note*: This package expects that postcss-cssnext is being used. If it's not,
+*Note*: This package expects that `postcss-cssnext` is being used. If it's not,
 the following rules should be used in your config to override this package:
 
     'at-rule-blacklist': 'import',

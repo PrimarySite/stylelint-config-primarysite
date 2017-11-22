@@ -27,7 +27,7 @@ module.exports = {
     'selector-max-compound-selectors': 1,
     'selector-max-empty-lines': 0,
     'selector-max-id': 0,
-    'selector-max-specificity': '0,2,1',
+    'selector-max-specificity': '0,3,1',
     'selector-max-type': 0,
     'selector-max-universal': 0,
     'selector-nested-pattern': null,
@@ -35,7 +35,7 @@ module.exports = {
     'selector-no-vendor-prefix': true,
     'selector-pseudo-class-blacklist': [
       ['focus', 'hover'],
-      { message: 'Expected ":--focusHover" to be used' }
+      { message: 'Expected ":--focus-hover" to be used' }
     ],
     'selector-pseudo-class-case': 'lower',
     'selector-pseudo-class-no-unknown': [true, { ignorePseudoClasses: 'global' }],
