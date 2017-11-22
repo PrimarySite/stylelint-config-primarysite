@@ -24,7 +24,7 @@ module.exports = {
     'selector-max-attribute': 1,
     'selector-max-class': 2,
     'selector-max-combinators': 1,
-    'selector-max-compound-selectors': 1,
+    'selector-max-compound-selectors': 2,
     'selector-max-empty-lines': 0,
     'selector-max-id': 0,
     'selector-max-specificity': '0,3,1',
