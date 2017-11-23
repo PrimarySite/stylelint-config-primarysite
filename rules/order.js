@@ -84,6 +84,7 @@ module.exports = {
         'list-style',
         'vertical-align',
         'cursor',
+        'pointer-events',
         'resize',
         'transition',
         'transform',
