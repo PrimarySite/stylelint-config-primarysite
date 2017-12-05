@@ -5,6 +5,7 @@ module.exports = {
     'max-line-length': [99, { ignorePattern: '/https?:\/\/[0-9,a-z]*.*/' }],
     'max-nesting-depth': 0,
     'no-descending-specificity': true,
+    'no-duplicate-at-import-rules': true,
     'no-duplicate-selectors': true,
     'no-empty-source': true,
     'no-eol-whitespace': true,
