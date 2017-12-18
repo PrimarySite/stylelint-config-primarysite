@@ -15,6 +15,7 @@ module.exports = {
         'grid-gap',
         'grid-column-gap',
         'grid-row-gap',
+        'order',
         'flex',
         'flex-grow',
         'flex-shrink',
