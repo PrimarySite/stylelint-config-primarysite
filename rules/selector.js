@@ -34,7 +34,7 @@ module.exports = {
     'selector-no-qualifying-type': true,
     'selector-no-vendor-prefix': true,
     'selector-pseudo-class-blacklist': [
-      ['focus', 'hover'],
+      ['hover'],
       { message: 'Expected ":--focus-hover" to be used' }
     ],
     'selector-pseudo-class-case': 'lower',
