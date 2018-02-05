@@ -22,6 +22,6 @@
     "stylelint": "^8.3.1"
   },
   "dependencies": {
-    "stylelint-order": "^0.7.0"
+    "stylelint-order": "~0.8.0"
   }
 }
