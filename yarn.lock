@@ -65,9 +65,9 @@ source-map@^0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
 
-stylelint-order@~0.8.0:
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/stylelint-order/-/stylelint-order-0.8.0.tgz#49da5615cb91ed077ebd274687f4df3d6feeb4e4"
+stylelint-order@~0.8.1:
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/stylelint-order/-/stylelint-order-0.8.1.tgz#35f71af3a15954154e0e99e5646ba3d6fbe34f8d"
   dependencies:
     lodash "^4.17.4"
     postcss "^6.0.14"

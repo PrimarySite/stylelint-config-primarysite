@@ -10,8 +10,10 @@ module.exports = {
       '^([a-z][a-z]*)(-[a-z]+)*$',
       { message: 'Expected class selector format to be kebab-case', resolveNestedSelectors: true }
     ],
+    'selector-combinator-blacklist': null,
     'selector-combinator-space-after': 'always',
     'selector-combinator-space-before': 'always',
+    'selector-combinator-whitelist': null,
     'selector-descendant-combinator-no-non-space': true,
     'selector-id-pattern': [
       '^([a-z][a-z]*)(-[a-z]+)*$',
@@ -41,9 +43,11 @@ module.exports = {
     'selector-pseudo-class-no-unknown': [true, { ignorePseudoClasses: 'global' }],
     'selector-pseudo-class-parentheses-space-inside': 'never',
     'selector-pseudo-class-whitelist': null,
+    'selector-pseudo-element-blacklist': null,
     'selector-pseudo-element-case': 'lower',
     'selector-pseudo-element-colon-notation': 'double',
     'selector-pseudo-element-no-unknown': true,
+    'selector-pseudo-element-whitelist': null,
     'selector-type-case': 'lower',
     'selector-type-no-unknown': true
   }
