@@ -1,7 +1,7 @@
 module.exports = {
   rules: {
     'declaration-bang-space-after': 'never',
-    'declaration-bang-space-before': 'never',
+    'declaration-bang-space-before': 'always',
     'declaration-block-no-duplicate-properties': true,
     'declaration-block-no-redundant-longhand-properties': true,
     'declaration-block-no-shorthand-property-overrides': true,
