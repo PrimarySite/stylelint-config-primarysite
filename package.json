@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-primarysite",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "PrimarySite's approach to CSS.",
   "repository": "https://github.com/PrimarySite/pslint.git",
   "author": "Sammy Marsden <sammy@primarysite.net>",
@@ -18,7 +18,7 @@
     "stylelintconfig"
   ],
   "peerDependencies": {
-    "postcss-cssnext": "^3.0.0",
+    "postcss-cssnext": "^3.1.0",
     "stylelint": "^9.1.1"
   },
   "dependencies": {

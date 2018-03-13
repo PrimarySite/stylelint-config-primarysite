@@ -7,7 +7,10 @@ module.exports = {
     ],
     'property-blacklist': null,
     'property-case': 'lower',
-    'property-no-unknown': [true, { checkPrefixed: true }],
+    'property-no-unknown': [true, {
+      checkPrefixed: true,
+      ignoreProperties: ['composes']
+    }],
     'property-no-vendor-prefix': true,
     'property-whitelist': null,
     'shorthand-property-no-redundant-values': true
