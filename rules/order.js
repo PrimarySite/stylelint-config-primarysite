@@ -4,6 +4,7 @@ module.exports = {
     'order/order': [['custom-properties', 'at-rules', 'declarations'], { unspecified: 'bottom' }],
     'order/properties-order': [
       [
+        'composes',
         'grid-area',
         'grid-column',
         'grid-row',
