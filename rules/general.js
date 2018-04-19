@@ -2,7 +2,6 @@ module.exports = {
   rules: {
     'indentation': [2, { except: 'param', indentClosingBrace: false }],
     'max-empty-lines': 1,
-    'max-line-length': [99, { ignorePattern: '/https?:\/\/[0-9,a-z]*.*/' }],
     'max-nesting-depth': 0,
     'no-descending-specificity': true,
     'no-duplicate-at-import-rules': true,
