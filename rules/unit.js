@@ -4,7 +4,7 @@ module.exports = {
       ['ch', 'cm', 'em', 'in', 'mm', 'pc', 'pt'],
       {
         ignoreMediaFeatureNames: {
-          'em': ['/height$/', '/width$/']
+          em: ['/height$/', '/width$/']
         }
       }
     ],

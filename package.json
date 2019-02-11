@@ -18,10 +18,19 @@
     "stylelintconfig"
   ],
   "peerDependencies": {
-    "postcss-cssnext": "^3.1.0",
-    "stylelint": "^9.1.1"
+    "postcss-import": "*",
+    "postcss-preset-env": "*",
+    "stylelint": "^9.10.1"
+  },
+  "peerDependenciesMeta": {
+    "postcss-import": {
+      "optional": true
+    },
+    "postcss-preset-env": {
+      "optional": true
+    }
   },
   "dependencies": {
-    "stylelint-order": "~0.8.1"
+    "stylelint-order": "~2.0.0"
   }
 }
