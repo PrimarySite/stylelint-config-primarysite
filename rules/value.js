@@ -1,6 +1,6 @@
 module.exports = {
   rules: {
-    'value-keyword-case': 'lower',
+    'value-keyword-case': ['lower', { ignoreProperties: ['--fontFamily'] }],
     'value-list-comma-newline-after': 'always-multi-line',
     'value-list-comma-newline-before': 'never-multi-line',
     'value-list-comma-space-after': 'always',
