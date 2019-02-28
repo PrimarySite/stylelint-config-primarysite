@@ -1,6 +1,16 @@
+const postcssImportExists = (() => {
+  try {
+    require.resolve('postcss-import');
+  } catch (e) {
+    return false;
+  }
+
+  return true;
+})();
+
 module.exports = {
   rules: {
-    'at-rule-blacklist': null,
+    'at-rule-blacklist': postcssImportExists ? null : 'import',
     'at-rule-empty-line-before': [
       'always',
       {

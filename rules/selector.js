@@ -1,3 +1,13 @@
+const postcssPresetEnvExists = (() => {
+  try {
+    require.resolve('postcss-preset-env');
+  } catch (e) {
+    return false;
+  }
+
+  return true;
+})();
+
 module.exports = {
   rules: {
     'selector-attribute-brackets-space-inside': 'never',
@@ -29,16 +39,16 @@ module.exports = {
     'selector-max-compound-selectors': 2,
     'selector-max-empty-lines': 0,
     'selector-max-id': 0,
+    'selector-max-pseudo-class': 2,
     'selector-max-specificity': '0,3,1',
     'selector-max-type': 0,
     'selector-max-universal': 0,
     'selector-nested-pattern': null,
     'selector-no-qualifying-type': true,
     'selector-no-vendor-prefix': true,
-    'selector-pseudo-class-blacklist': [
-      ['hover'],
-      { message: 'Expected ":--focus-hover" to be used' }
-    ],
+    'selector-pseudo-class-blacklist': postcssPresetEnvExists
+      ? [['hover'], { message: 'Expected ":--focus-hover" to be used' }]
+      : null,
     'selector-pseudo-class-case': 'lower',
     'selector-pseudo-class-no-unknown': [true, { ignorePseudoClasses: 'global' }],
     'selector-pseudo-class-parentheses-space-inside': 'never',

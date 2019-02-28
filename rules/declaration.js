@@ -27,6 +27,7 @@ module.exports = {
     'declaration-property-unit-whitelist': { 'line-height': [] },
     'declaration-property-value-blacklist': null,
     'declaration-property-value-whitelist': null,
-    'keyframe-declaration-no-important': true
+    'keyframe-declaration-no-important': true,
+    'keyframes-name-pattern': '^([a-z][a-z]*)(-[a-z]+)*$'
   }
 };
