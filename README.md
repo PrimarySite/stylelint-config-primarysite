@@ -13,9 +13,10 @@ With your project's `.stylelintrc` file, extend 'stylelint-config-primarysite', 
 _Note_: Installing this package's optional `peerDependencies` will change the behaviour of some of
 the rules to account for the additional features provided by the optional dependencies.
 
-## Helpful Tip
+## Helpful Tips
 
-- Consider adding `--formatter verbose` to the `stylelint` script in `package.json`.
+- Consider adding `--report-needless-disables --formatter verbose` to the `stylelint` script in
+  `package.json`.
 
   For example:
 
