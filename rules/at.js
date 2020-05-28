@@ -23,6 +23,7 @@ module.exports = {
     'at-rule-name-space-after': 'always',
     'at-rule-no-unknown': true,
     'at-rule-no-vendor-prefix': true,
+    'at-rule-property-requirelist': null,
     'at-rule-semicolon-newline-after': 'always',
     'at-rule-semicolon-space-before': 'never',
     'at-rule-whitelist': null

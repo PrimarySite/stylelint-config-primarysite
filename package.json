@@ -20,7 +20,7 @@
   "peerDependencies": {
     "postcss-import": "*",
     "postcss-preset-env": "*",
-    "stylelint": "^9.10.1"
+    "stylelint": "^10.1.0"
   },
   "peerDependenciesMeta": {
     "postcss-import": {
