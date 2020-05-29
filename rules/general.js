@@ -3,7 +3,10 @@ module.exports = {
     indentation: [2, { baseIndentLevel: 1, except: 'param', indentClosingBrace: false }],
     linebreaks: 'unix',
     'max-empty-lines': 1,
-    'max-line-length': 100,
+    'max-line-length': [
+      100,
+      { ignore: ['non-comments'], ignorePattern: '/^\\/\\*\\s*stylelint-disable/' }
+    ],
     'max-nesting-depth': 0,
     'no-descending-specificity': true,
     'no-duplicate-at-import-rules': true,
