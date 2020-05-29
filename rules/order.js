@@ -103,7 +103,7 @@ module.exports = {
         'transform',
         'overflow-scrolling'
       ],
-      { unspecified: 'bottom' }
+      { emptyLineBeforeUnspecified: 'never', unspecified: 'bottom' }
     ]
   }
 };

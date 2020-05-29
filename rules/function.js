@@ -1,6 +1,6 @@
 module.exports = {
   rules: {
-    'function-blacklist': null,
+    'function-blacklist': ['/^rgb/'],
     'function-calc-no-invalid': true,
     'function-calc-no-unspaced-operator': true,
     'function-comma-newline-after': 'always-multi-line',

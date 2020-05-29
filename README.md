@@ -15,8 +15,8 @@ the rules to account for the additional features provided by the optional depend
 
 ## Helpful Tips
 
-- Consider adding `--report-needless-disables --formatter verbose` to the `stylelint` script in
-  `package.json`.
+- Consider adding `--report-invalid-scope-disables --report-needless-disables --formatter verbose`
+  to the `stylelint` script in `package.json`.
 
   For example:
 
