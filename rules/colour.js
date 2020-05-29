@@ -1,3 +1,13 @@
+const postcssPresetEnvExists = (() => {
+  try {
+    require.resolve('postcss-preset-env');
+  } catch (e) {
+    return false;
+  }
+
+  return true;
+})();
+
 module.exports = {
   rules: {
     'alpha-value-notation': postcssPresetEnvExists
