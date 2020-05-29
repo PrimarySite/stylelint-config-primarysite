@@ -15,14 +15,9 @@ the rules to account for the additional features provided by the optional depend
 
 ## Helpful Tips
 
-- Consider adding `--report-invalid-scope-disables --report-needless-disables --formatter verbose`
-  to the `stylelint` script in `package.json`.
+- Here is an example script that you can use in your project:
 
-  For example:
-
-      "lint": "stylelint 'src/**/*.{css,html}' --formatter verbose"
-
-This will give you a summary of the files linted and any errors encountered.
+      "lint": "stylelint 'src/**/*.{css,html}' --report-needless-disables --formatter verbose"
 
 - When specifying the version of `stylelint` in `package.json`, prefix the version number with `~`
   (tilde) instead of a `^` (caret) as per the
