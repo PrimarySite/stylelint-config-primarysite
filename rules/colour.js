@@ -1,6 +1,10 @@
 module.exports = {
   rules: {
-    'alpha-value-notation': 'percentage',
+    'alpha-value-notation': postcssPresetEnvExists
+      ? // When postcss-preset-env supports the transpiling of percentages to numbers for opacity
+        // then the opacity exception can be removed.
+        ['percentage', { exceptProperties: ['opacity'] }]
+      : 'number',
     'color-function-notation': 'modern',
     'color-hex-case': 'lower',
     'color-hex-length': 'short',
